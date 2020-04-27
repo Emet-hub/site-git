@@ -1,0 +1,37 @@
+// team slider
+.team {
+  padding: 2rem 0;
+}
+.swiper-container {
+  width: 95%;
+  margin: auto;
+  height: 70vh;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  margin: 1rem 0;
+  background: #fff;
+  height: 10rem;
+  /* Center slide text vertically */
+  box-shadow: 2px 5px 10px gray;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.swiper-slide img {
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
+  display: block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.swiper-slide p {
+  margin-top: -8rem;
+}
+.swiper-pagination {
+  margin-top: 100rem;
+}

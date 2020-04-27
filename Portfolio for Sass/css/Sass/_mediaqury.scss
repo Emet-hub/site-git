@@ -1,0 +1,15 @@
+// mediaqury
+@media (max-width: 500px) {
+  .logo {
+    margin-left: -7rem;
+  }
+  nav ul {
+    margin-right: -1rem;
+  }
+  .one {
+    display: none;
+  }
+  ul li:hover ul {
+    display: none;
+  }
+}
